@@ -14,5 +14,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+  },
+  "deserializers": {
+    "weboutline/WeboutlineView": "deserializeWeboutlineView"
   }
 }
