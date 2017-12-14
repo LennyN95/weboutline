@@ -17,5 +17,6 @@
   },
   "deserializers": {
     "weboutline/WeboutlineView": "deserializeWeboutlineView"
-  }
+  },
+  "styles": ["weboutline.less"]
 }
