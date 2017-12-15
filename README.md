@@ -53,7 +53,7 @@ html: <!-- @ my note -->
 
 ## Authors
 
-**Leonard Nürnberg** - *Initial work* - [PurpleBooth](https://github.com/LennyN95)
+**Leonard Nürnberg** - *Initial work* - [LennyN95](https://github.com/LennyN95)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
