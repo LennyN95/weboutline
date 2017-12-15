@@ -107,6 +107,14 @@
   top: -1px;
 }
 
+.weboutline-icon[data-type="oclass"]{
+    background: #f15656;
+}
+.weboutline-icon[data-type="oclass"]:before{
+  content: 'c';
+  top: -2px;
+}
+
 .weboutline-icon[data-type="function"]{
     background: #f09011;
 }
