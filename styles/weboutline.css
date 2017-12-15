@@ -6,13 +6,50 @@
   color: red;
 }
 
+.weboutline > .weboutline-header{
+  height: 38px;
+}
+
+.weboutline > .weboutline-header > input{
+  width: calc(100% - 36px);
+  margin: 10px 0 0;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #d6d6d6;
+  padding: 3px 5px;
+  float: left;
+  height: 26px;
+}
+
+.weboutline > .weboutline-header > button{
+  float: left;
+  margin: 10px 0 0 10px;
+  padding: 0 4px;
+  width: 26px;
+  height: 26px;
+  border-color: #d6d6d6;
+}
+
+.weboutline > .weboutline-header > button > span{
+  margin: -1px 0 0 0;
+  display: block;
+  height: 19px;
+  width: 15px;
+}
+
 .weboutline-boxes{
   overflow-y: auto;
+  height: calc(100% - 45px);
+  margin-top: 10px;
 }
 
 .weboutline-box{
   margin: 10px 0;
   /* background: lime; */
+}
+
+.weboutline-box:first-of-type{
+  margin-top: 0;
 }
 
 .weboutline-box > ul{
@@ -24,21 +61,68 @@
 .weboutline-box > ul > li{
   margin: 2px 0;
   font-size: 11px;
-  height: 16px;
+  overflow: auto;
+  position: relative;
   cursor: pointer;
+  padding-left: 18px;
   /* background: yellow; */
 }
 
-.weboutline-box > ul > li > .weboutline-icon{
+.weboutline-icon{
   background: #19abe2;
   color: #fff;
   display: inline-block;
   width: 12px;
+  position: absolute;
   height: 12px;
   border-radius: 12px;
-  margin-right: 10px;
+  left: 0;
   margin: 2px 10px 2px 0px;
 }
+/* @ test  */
+.weboutline-icon:before{
+  content: 'c';
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  text-align: center;
+  width: 12px;
+}
+
+/* @ interesting line */
+.weboutline-icon[data-type="class"]{
+    background: #10cbb2;
+}
+.weboutline-icon[data-type="class"]:before{
+  content: 'c';
+}
+
+.weboutline-icon[data-type="id"]{
+    background: #14b9ed;
+}
+.weboutline-icon[data-type="id"]:before{
+  content: '#';
+  top: -1px;
+}
+
+.weboutline-icon[data-type="function"]{
+    background: #f09011;
+}
+.weboutline-icon[data-type="function"]:before{
+  content: 'f';
+  top: -1px;
+}
+
+.weboutline-icon[data-type="custom"]{
+    background: #9f9f9f;
+}
+.weboutline-icon[data-type="custom"]:before{
+  content: 'a';
+  top: -2px;
+}
+
 
 .weboutline-box > ul > li > span{
   float: left;
