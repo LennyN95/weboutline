@@ -1,0 +1,45 @@
+.weboutline{
+  padding: 0 10px;
+}
+
+#mydiv{
+  color: red;
+}
+
+.weboutline-boxes{
+  overflow-y: auto;
+}
+
+.weboutline-box{
+  margin: 10px 0;
+  /* background: lime; */
+}
+
+.weboutline-box > ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.weboutline-box > ul > li{
+  margin: 2px 0;
+  font-size: 11px;
+  height: 16px;
+  cursor: pointer;
+  /* background: yellow; */
+}
+
+.weboutline-box > ul > li > .weboutline-icon{
+  background: #19abe2;
+  color: #fff;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  margin-right: 10px;
+  margin: 2px 10px 2px 0px;
+}
+
+.weboutline-box > ul > li > span{
+  float: left;
+}
