@@ -2,8 +2,8 @@
   "name": "weboutline",
   "main": "./lib/weboutline",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "description": "Atom plugin that outlines properties for CSS, JS and PHP in js, css, html and php files.",
+  "keywords": ["outline", "webdevelopment"],
   "activationCommands": {
     "atom-workspace": "weboutline:toggle"
   },
