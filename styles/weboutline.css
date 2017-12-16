@@ -2,10 +2,6 @@
   padding: 0 10px;
 }
 
-#mydiv{
-  color: red;
-}
-
 .weboutline > .weboutline-header{
   height: 38px;
 }
@@ -79,7 +75,7 @@
   left: 0;
   margin: 2px 10px 2px 0px;
 }
-/* @ test  */
+
 .weboutline-icon:before{
   content: 'c';
   color: #fff;
@@ -91,7 +87,7 @@
   width: 12px;
 }
 
-/* @ interesting line */
+/* @ label definitions */
 .weboutline-icon[data-type="class"]{
     background: #10cbb2;
 }
