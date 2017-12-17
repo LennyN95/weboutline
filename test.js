@@ -65,6 +65,10 @@ var str = 'somestring';
 str = str.substr(0,5);
 
 // @ babel like function
-myBabelFunc(foo, bar) {
+test(babel){
 
+}
+
+var myVarParamFunc2 = function(foo, bar, callback){
+  return foo + bar + callback();
 }
