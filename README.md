@@ -2,6 +2,8 @@
 
 Atom plugin that outlines properties for CSS, JS and PHP in js, css, html and php files.
 
+NOTE: Currently the styles are not loaded correctly. I', working on that and hopefully can provide an update soon - so stay tuned ;)
+
 ## Getting Started
 
 These instructions will help you installing and using this atom plugin.
