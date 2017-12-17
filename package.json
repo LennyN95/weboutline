@@ -7,9 +7,6 @@
     "outline",
     "webdevelopment"
   ],
-  "activationCommands": {
-    "atom-workspace": "weboutline:toggle"
-  },
   "repository": "https://github.com/LennyN95/weboutline",
   "license": "MIT",
   "engines": {
