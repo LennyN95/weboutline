@@ -127,6 +127,14 @@
   top: -2px;
 }
 
+.weboutline-icon[data-type="mdheadline"]{
+    background: #9f9f9f;
+}
+.weboutline-icon[data-type="mdheadline"]:before{
+  content: '#';
+  top: -1px;
+}
+
 
 .weboutline-box > ul > li > span{
   float: left;
