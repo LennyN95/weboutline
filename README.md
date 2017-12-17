@@ -3,7 +3,7 @@
 Atom plugin that outlines properties for CSS, JS and PHP in js, css, html and php files.
 Github Markdown files .md are also supported.
 
-NOTE: Currently the styles are not loaded correctly. I'm working on that and hopefully can provide an update soon - so stay tuned ;)
+NOTE: Styling issue fixed. Update now ;)
 
 ## Getting Started
 
