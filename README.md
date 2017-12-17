@@ -1,8 +1,9 @@
 # Atom Weboutline Package
 
 Atom plugin that outlines properties for CSS, JS and PHP in js, css, html and php files.
+Github Markdown files .md are also supported.
 
-NOTE: Currently the styles are not loaded correctly. I', working on that and hopefully can provide an update soon - so stay tuned ;)
+NOTE: Currently the styles are not loaded correctly. I'm working on that and hopefully can provide an update soon - so stay tuned ;)
 
 ## Getting Started
 
@@ -35,6 +36,10 @@ For html files css code within <style type="text/css"></style> and js code withi
 ### php
 
 For php code functions, classes and methods are outlined. Files that contain mixed html / php are supported.
+
+### Github Markdown (e.g. README.md)
+
+Headlines are outlined and indented depending on their level. Custom notes are not supported within .md files.
 
 ### custom
 
