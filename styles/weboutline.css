@@ -135,6 +135,22 @@
   top: -1px;
 }
 
+.weboutline-icon[data-type="jsonarray"]{
+    background: #10cbb2;
+}
+.weboutline-icon[data-type="jsonarray"]:before{
+  content: 'l';
+  top: -1px;
+}
+
+.weboutline-icon[data-type="jsonobj"]{
+    background: #19abe2;
+}
+.weboutline-icon[data-type="jsonobj"]:before{
+  content: 'o';
+  top: -2px;
+}
+
 
 .weboutline-box > ul > li > span{
   float: left;
