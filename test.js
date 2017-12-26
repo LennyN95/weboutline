@@ -63,12 +63,3 @@ myVarParamFunc(1, 2, function(){
 // @ use some js build in function (should NOT show up)
 var str = 'somestring';
 str = str.substr(0,5);
-
-// @ babel like function
-test(babel){
-
-}
-
-var myVarParamFunc2 = function(foo, bar, callback){
-  return foo + bar + callback();
-}
