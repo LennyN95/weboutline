@@ -1,5 +1,7 @@
 # Atom Weboutline Package
 
+https://atom.io/packages/weboutline
+
 Atom plugin that outlines properties for CSS, JS and PHP in js, css, html and php files.
 In .json files arrays and pobjects are outlined. Github Markdown files .md are also supported.
 
